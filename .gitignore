@@ -5,3 +5,6 @@ data_dsmarket/merged_data_for_power_bi.csv.gz
 data_dsmarket/merged_data_for_power_bi.csv
 data_dsmarket/merged_data_for_power_bi_2.csv.gz
 data_dsmarket/merged_data_for_power_bi_2.csv
+data_dsmarket/weekly_data_for_power_bi.csv
+Data_for_Power_BI/daily_calendar_with_expanded_events.csv
+Data_for_Power_BI/weekly_data_for_power_bi.csv
