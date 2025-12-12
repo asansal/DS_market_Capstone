@@ -73,6 +73,7 @@ The proposed solution empowers DSMarket to:
 2. **Product Intelligence:** Deeply understand product behavior through clustering (e.g., identifying which items are "loss leaders" vs. profit drivers).
 3. **Optimize Stock:** Reduce storage costs for low-rotation products and ensure availability for best-sellers, directly improving the operating margin.
 
+
 ## 👥 The team
 
 [](https://github.com/asansal/ML-data-cleaning-and-classification-projects#-equipo)
@@ -83,7 +84,7 @@ The proposed solution empowers DSMarket to:
 
 **Ignacio Salafranca** / [@NakioSE](https://github.com/NakioSE)
 
-**Leonardo Aguado** /[@leoaguado](https://github.com/leoaguado)
+**Leonardo Aguado** / [@leoaguado](https://github.com/leoaguado)
 
 ---
 
