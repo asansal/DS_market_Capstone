@@ -11,11 +11,3 @@ Data_for_Power_BI/weekly_data_for_power_bi.csv
 df_weekly_final_features_engineered.csv
 data_dsmarket/df_for_prediction.csv
 Data_for_Power_BI/daily_calendar_with_expanded_events_expanded.csv
-Clustering_TFM_v3.ipynb
-Clustering_TFM_v4.ipynb
-Clustering_TFM.ipynb
-tarea_2_DSMarket_clustering.ipynb
-tarea_3_DSMarket_time_series_main_v3_Ale.ipynb
-tarea_3_DSMarket_time_series_main.ipynb
-tarea_3_DSMarket_time_series.ipynb
-weekly_weather_data_NYC_BOS_PHI.csv
