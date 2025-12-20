@@ -21,13 +21,13 @@ DSMarket is a fictional retail chain operating across the East Coast of the Unit
 
 The project is structured across several notebooks covering the entire data lifecycle, from ingestion to final prediction:
 
-### 1. Exploratory Data Analysis & Cleaning (`first_steps`)
+### 1. Exploratory Data Analysis & Cleaning (`01_data_preparation`)
 
 * **Data Ingestion:** Consolidation of three main data sources: historical daily sales (time series), event/holiday calendars, and price evolution.
 * **Data Wrangling:** Transformation of the data structure from "wide" format (days as columns) to "long" format (transactional) to facilitate modeling.
 * **Analysis:** Study of sales distributions by department, store, and region.
 
-### 2. Advanced Segmentation: Clustering (`tarea_2_clustering`)
+### 2. Advanced Segmentation: Clustering (`02_clustering_TFM_vf`)
 
 Instead of treating all products equally, we performed intelligent segmentation based on **sales behavior** rather than just category.
 
@@ -47,12 +47,12 @@ To feed the Machine Learning models, we enriched the dataset with complex variab
 * **Events & "Heat" Features:** Specific flags and proximity counters (e.g., "Weeks until Christmas," "Days since Superbowl") to measure the impact of major holidays.
 * **External Data:** Integration of weather data (Temperature, Precipitation) via the `meteostat` library to assess environmental impact on retail footfall.
 
-### 4. Time Series Forecasting (`tarea_3_time_series`)
+### 4. Time Series Forecasting (`03_time_series_vf`)
 
 The core of the project is a robust forecasting system.
 
 * **Validation Strategy:** Implementation of **Walk-Forward Validation**. This technique simulates a real-world production environment where the model is periodically re-trained or validated as new weeks of data become available, ensuring realistic error metrics.
-* **Modeling Approach:** Evaluation of various algorithms, prioritizing **Tree-based Machine Learning models** (e.g., XGBoost/LightGBM) for their ability to handle non-linear patterns and complex exogenous variables.
+* **Modeling Approach:** Evaluation of various algorithms, prioritizing **Tree-based Machine Learning models** (XGBoost) for their ability to handle non-linear patterns and complex exogenous variables.
 * **Target:** Prediction of unit sales (`sale`) and revenue impact (`daily_revenue`), utilizing Log transformations to stabilize variance where necessary.
 
 ## 🛠️ Tech Stack
