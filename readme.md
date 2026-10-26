@@ -51,7 +51,7 @@ To feed the Machine Learning models, we enriched the dataset with complex variab
 
 The core of the project is a robust forecasting system.
 
-* **Validation Strategy:** Implementation of **Walk-Forward Validation**. This technique simulates a real-world production environment where the model is periodically re-trained or validated as new weeks of data become available, ensuring realistic error metrics.
+* **Validation Strategy:** Chronological **train / validation / test split** (train weeks 53–253, validation 255–268, test 270–278), with one-step-ahead evaluation and a naive last-week baseline for comparison. Hyperparameters are tuned with Optuna on the validation weeks; the test weeks are only used for the final evaluation.
 * **Modeling Approach:** Evaluation of various algorithms, prioritizing **Tree-based Machine Learning models** (e.g., XGBoost/LightGBM) for their ability to handle non-linear patterns and complex exogenous variables.
 * **Target:** Prediction of unit sales (`sale`) and revenue impact (`daily_revenue`), utilizing Log transformations to stabilize variance where necessary.
 
